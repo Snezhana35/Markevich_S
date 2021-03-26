@@ -1,0 +1,1427 @@
+{
+	"info": {
+		"_postman_id": "6552b664-9502-42b5-bf58-0434c937328e",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "age_europe",
+			"item": [
+				{
+					"name": "age_europe age=-1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "-1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=0",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=10",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=16",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "16",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=17",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "17",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=18",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "18",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=19",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "19",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=30",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "30",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=49",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=50",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "50",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=51",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "51",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=70",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "70",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=99",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "99",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=100",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "100",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_europe age=101",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "101",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_europe",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_europe"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "age_usa",
+			"item": [
+				{
+					"name": "age_usa=-1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "-1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=0",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=11",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "11",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=19",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "19",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=20",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "20",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=21",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "21",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=22",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "22",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=33",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "33",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=49",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "49",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=50",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "50",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=51",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "50",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=76",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "76",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=99",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "76",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=100",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "100",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "age_usa=101",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "age",
+									"value": "101",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "116.203.27.46:5002/age_usa",
+							"host": [
+								"116",
+								"203",
+								"27",
+								"46"
+							],
+							"port": "5002",
+							"path": [
+								"age_usa"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
